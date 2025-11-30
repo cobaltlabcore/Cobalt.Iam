@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="Ulid" Version="1.4.1" />
+      <PackageReference Include="ZiggyCreatures.FusionCache" Version="2.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Cobalt.Iam.Abstractions\Cobalt.Iam.Abstractions.csproj" />
+    </ItemGroup>
+
 </Project>
