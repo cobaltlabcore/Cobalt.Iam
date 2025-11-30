@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cobalt.Iam", "Cobalt.Iam\Cobalt.Iam.csproj", "{F7B52CD4-33CA-4A1B-A696-0DC1984225C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cobalt.Iam.Abstractions", "Cobalt.Iam.Abstractions\Cobalt.Iam.Abstractions.csproj", "{402AD28E-3A44-4E31-8A0F-2F48AE103C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B52CD4-33CA-4A1B-A696-0DC1984225C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B52CD4-33CA-4A1B-A696-0DC1984225C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B52CD4-33CA-4A1B-A696-0DC1984225C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B52CD4-33CA-4A1B-A696-0DC1984225C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402AD28E-3A44-4E31-8A0F-2F48AE103C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402AD28E-3A44-4E31-8A0F-2F48AE103C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402AD28E-3A44-4E31-8A0F-2F48AE103C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402AD28E-3A44-4E31-8A0F-2F48AE103C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
